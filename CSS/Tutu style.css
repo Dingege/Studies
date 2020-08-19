@@ -1,3 +1,56 @@
 h1{
     color: blue;
+    font-size: 3vw;
+    border: 1px dashed black;
+    font-family: Georgia;
+}
+/* border: dotted/solid/dashed color*/
+.style1{
+color: red;
+line-height: 1.2;
+text-align: left;
+text-indent: 36px;
+font-size: 2vw;
+}
+
+.style2{
+    color: blueviolet;
+    font-size: 5vw;
+}
+
+.style3{
+    color: blue;
+    font-size: 2vw;
+    font-family: Georgia;
+    text-indent: 36px;
+
+}
+
+.style4{
+    line-height: 4;
+}
+
+a:hover{
+    color:gray;
+}
+
+a:active{
+    color: indigo;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
+/* display li in row instead of colomb  */
+
+a{
+    height: 50px;
+    
+    display: inline-block;
+}
+
+.style5 h2 span{
+    font-size: 4vw;
+    color: grey;
 }
