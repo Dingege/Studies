@@ -1,0 +1,24 @@
+.wrap{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.header{
+    height: 100px;
+    background: red;
+}
+.body{
+   
+    height: 400px;
+    background:blue;
+}
+.footer{
+    height: 100px;
+    background: green;
+}
+/* this tag remove the need to calculate the margin,padding,border thickness  */
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
