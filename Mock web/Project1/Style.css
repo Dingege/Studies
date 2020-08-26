@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 1;
+	padding: 1;
+	border: 1;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    margin: 0 auto;
+    width: 80vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.header{
+    height: 15vw;   
+    background: white;
+}
+.logo{
+    position: relative;
+    left: 5vw;
+    top: 5vw;
+    z-index: 10;
+}
+.contact{
+position: relative;
+top: 7vw;
+right: 0vw;
+z-index: 10;
+
+}
+.phone{
+    float: right;
+    padding-top: 1vw;
+
+}
+.number{
+    float: right;
+    text-align: right;
+    line-height: 0;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: small;
+    padding-top: 1vw;
+
+}
+.topmenu{
+    position: relative;
+    z-index: 10;
+    height: 35px;
+    width: 100%;
+}
+.topmenu li{
+    float: left;
+
+}
+.topmenu ul li {
+    display: block;
+    float: left;
+    height: 35px;
+    list-style-type: none;
+    padding: 0 1px 0 0;
+  }
+.topmenu li a{
+    display: block;
+    width: 12vw;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 100%;
+}
+.topmenu li a span {
+    display: block;
+    height: 100%;
+    padding: 0 18px 0 0;
+  }
+
+.topmenu li a:hover, #nav li.active a {
+    background: url(../images/hover.jpg) no-repeat left;
+    color: #fff;
+  }
+a:link{
+color: #000;
+}
+a:hover {
+    color: hotpink;
+  }
+
+.box{
+    background-image: url(images/body_bg1.jpg); 
+    background-repeat:repeat-x;   
+    width: 100%;
+    height: 445px;
+    position: relative;
+
+}
+.frame{
+    background-color: beige;    
+    width: 70%;
+    height: 83%;
+    position: absolute;
+    margin: 0 auto;
+    left: 8vw;
+    top: 2vw;
+    
+}
+.backdrop{
+    background-image: url(images/fp-01.jpg); 
+ width: 630px;
+ height: 330px;
+ position: absolute;
+ left: 8.5vw;
+ top: 3vw;
+}
+.form{
+    background-image: url(images/form_bg.jpg);
+   position: absolute;
+    height: 330px;
+    width: 405px;
+    left: 42vw;
+    top: 3vw;
+}
+.bottomwrap{
+    position: absolute;
+    height: auto;
+    width: auto;
+    padding: 2vw;
+    left: 15.5vw;
+    float:none; 
+    }
+.bottomnote{
+    height: 165PX;
+    width: 320px;
+    background-image: url(images/col_bg.jpg);
+    border: 1px solid black;
+    float: left;
+    margin-right: 3vw;
+    position: relative;
+
+
+}
+.footerbanner{
+    clear: both;
+    background-color: brown;
+    background-image: url(images/footer_bg.jpg);
+    width:80vw ;
+    height: 5vw;
+    position: relative;
+    top: 13vw;
+    
+}
+.text{
+    position: absolute;
+    top: 1.5vw;
+    left: 2vw;
+    font-size:0.7vw;
+}
+.clearfix::after{
+    clear: both;
+}
